@@ -1,0 +1,77 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+h5 {
+    color: aqua;
+}
+
+.carousel slide {
+    position: relative;
+}
+
+.jumbotron h1 {
+    color:dodgerblue;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+div .anketa {
+    align-content:center
+    width: 500px;
+    background-color: lightgray;
+    padding-left: 125px;
+    padding-block-end: 50px;
+    padding-block-start: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+form .anketa {
+    align-content:center;
+    text-align:center;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.jumbotron p {
+    text-align: justify;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+a img {
+    block-size: 30px
+}

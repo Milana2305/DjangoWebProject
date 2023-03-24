@@ -1,0 +1,29 @@
+﻿{% extends "app/layout.html" %}
+{% load staticfiles %}
+{% block content %}
+
+
+<h2 align="center">{{ title }}</h2>
+<h3 align="center">{{ message }}</h3>
+
+
+<div align="center">
+    <br>
+    <a href ="https://zozhnik.ru/15-vazhnyx-veshhej-o-zozh-kotorye-ya-uznal-za-poslednie-5-let/#gsc.tab=0" target="_blank"> <img src="{% static 'C:\Users\Milashka\source\repos\DjangoWebProject\app\static\app\content\logo2.png' %}" alt="Logo 1"/></a>
+    <p>Важное о ЗОЖ</p>
+</div>
+
+<div align="center">
+    <br>
+    <a href ="https://billionnews.ru/6716-interesnye-fakty-o-zdorovom-obraze-zhiz.html" target="_blank"> <img src="{% static 'C:\Users\Milashka\source\repos\DjangoWebProject\app\static\app\content\logo.png' %}" alt="Logo 1"/></a>
+    <p>Интересные факты о здоровом образе жизни</p>
+</div>
+
+<div align="center">
+    <br>
+    <a href ="https://ratatum.com/54-mifa-o-zdorove-perestante-verit/" target="_blank"> <img src="{% static 'C:\Users\Milashka\source\repos\DjangoWebProject\app\static\app\content\logo2.png' %}" alt="Logo 1"/></a>
+    <p >Разрушителе легенд. 54 мифа о здоровье</p>
+</div>
+
+
+{% endblock %}
